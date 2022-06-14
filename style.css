@@ -111,6 +111,12 @@ body {
   overflow: hidden;
 }
 
+.our-partners-list__item:hover {
+  cursor: pointer;
+   box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1),
+   0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+
 @media screen and (max-width: 1200px) {
   body {
     padding: 0px 20px;
