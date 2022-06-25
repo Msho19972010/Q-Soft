@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Header */
+
 .main-header {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
 }
@@ -13,6 +15,7 @@ body {
   height: 80px;
   margin-bottom: 70px;
 }
+
 .container {
   max-width: 1240px;
   min-width: none;
@@ -27,6 +30,8 @@ body {
   display: flex;
   align-items: center;
 }
+
+/* Search */
 
 .search {
   margin: 0px 5.1%;
@@ -46,6 +51,8 @@ body {
   background: url("/icon.svg") no-repeat 14px 50%;
 }
 
+/* User profile */
+
 .user-profile {
   padding-left: 1.6%;
   border-left: 1px solid #ebebf1;
@@ -57,6 +64,8 @@ body {
   color: #768298;
   margin-right: 8.5%;
 }
+
+/* Partners list */
 
 .our-partners__title {
   font-weight: 500;
@@ -87,6 +96,8 @@ body {
   gap: 2.1%;
 }
 
+/* List item */
+
 .our-partners-list__item {
   display: flex;
   align-items: center;
@@ -99,7 +110,13 @@ body {
 }
 
 .our-partners-list__item img {
-  max-width: 100%;
+  width: 81.39130434782609%;
+}
+
+.our-partners-list__item:hover {
+  cursor: pointer;
+  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1),
+    0px 0px 10px rgba(164, 164, 164, 0.03);
 }
 
 .visually-hidden {
@@ -115,11 +132,7 @@ body {
   overflow: hidden;
 }
 
-.our-partners-list__item:hover {
-  cursor: pointer;
-  box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1),
-    0px 0px 10px rgba(164, 164, 164, 0.03);
-}
+/* Media 768 */
 
 @media screen and (max-width: 775px) {
   .header-container {
@@ -137,15 +150,21 @@ body {
   }
 
   .our-partners__list {
-    gap: 2.6%;
+    gap: auto;
   }
 
   .our-partners-list__item {
     width: 31.3%;
   }
+
+  .our-partners-list__item img {
+    width: 86.52173913043478%;
+  }
 }
 
-@media screen and (max-width: 702px) {
+/* Media 375 */
+
+@media screen and (max-width: 430px) {
   body {
     padding: 0px;
   }
@@ -163,7 +182,7 @@ body {
   .logo {
     border-bottom: 1px solid #bbc4d6;
     padding: 0px 20px;
-    background: url("Profile-stroke.svg") no-repeat calc(88% + 20px) 50%;
+    background: url("/Profile-stroke.svg") no-repeat calc(88% + 20px) 50%;
   }
 
   .search {
@@ -178,7 +197,7 @@ body {
     height: 42px;
     border: none;
     padding-left: 49px;
-    background: url("icon.svg") no-repeat 24px 50%;
+    background: url("/icon.svg") no-repeat 24px 50%;
   }
 
   .user-profile {
@@ -211,5 +230,10 @@ body {
     width: 100%;
     height: 140px;
     margin-bottom: 20px;
+  }
+
+  .our-partners-list__item img {
+    width: 85.07462686567164%;
+    height: 64.28571428571429%;
   }
 }
