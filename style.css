@@ -163,7 +163,7 @@ body {
   .logo {
     border-bottom: 1px solid #bbc4d6;
     padding: 0px 20px;
-    background: url("/Profile-stroke.svg") no-repeat calc(88% + 20px) 50%;
+    background: url("Profile-stroke.svg") no-repeat calc(88% + 20px) 50%;
   }
 
   .search {
