@@ -48,7 +48,7 @@ body {
   border: 1px solid #ebebf1;
   border-radius: 5px;
   padding-left: 39px;
-  background: url("/icon.svg") no-repeat 14px 50%;
+  background: url("icon.svg") no-repeat 14px 50%;
 }
 
 /* User profile */
@@ -182,7 +182,7 @@ body {
   .logo {
     border-bottom: 1px solid #bbc4d6;
     padding: 0px 20px;
-    background: url("/Profile-stroke.svg") no-repeat calc(88% + 20px) 50%;
+    background: url("Profile-stroke.svg") no-repeat calc(88% + 20px) 50%;
   }
 
   .search {
