@@ -231,6 +231,10 @@ body {
     overflow: hidden;
   }
 
+  .site-main {
+    margin: 0 20px;
+  }
+  
   .our-partners__list {
     padding: 0px;
     gap: 0px;
